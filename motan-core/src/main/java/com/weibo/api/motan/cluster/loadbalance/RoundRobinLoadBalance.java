@@ -16,13 +16,13 @@
 
 package com.weibo.api.motan.cluster.loadbalance;
 
-import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-
 import com.weibo.api.motan.core.extension.SpiMeta;
 import com.weibo.api.motan.rpc.Referer;
 import com.weibo.api.motan.rpc.Request;
 import com.weibo.api.motan.util.MathUtil;
+
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 
